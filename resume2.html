@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Temuulen Sukhbat — Resume</title>
+  <style>
+    :root{--accent:#0b72ff;--muted:#666}
+    body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial;line-height:1.5;color:#111;margin:0;padding:32px;background:#f7f9fc}
+    .card{max-width:900px;margin:0 auto;background:#fff;padding:28px;border-radius:12px;box-shadow:0 6px 24px rgba(18,38,63,0.08)}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{
+      width:96px;
+      height:96px;
+      border-radius:12px;
+      object-fit:cover;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1{margin:0;font-size:22px}
+    p.role{margin:4px 0 0;color:var(--muted)}
+    .contact{margin-left:auto;text-align:right;font-size:14px}
+    .section{margin-top:22px}
+    .section h2{margin:0 0 10px;font-size:16px}
+    ul{margin:0;padding-left:18px}
+    .two-cols{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .skill-badge{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid #e6eefb;margin:4px 6px 4px 0}
+    footer{margin-top:18px;font-size:13px;color:var(--muted);text-align:center}
+    @media (max-width:820px){.two-cols{grid-template-columns:1fr}.contact{text-align:left;margin-top:12px}}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <img src="profpic.jpg" alt="Profile Photo" class="avatar" />
+      <div>
+        <h1>Temuulen Sukhbat</h1>
+        <p class="role">Finance student · Data & Finance enthusiast</p>
+      </div>
+      <div class="contact">
+        <div>Taiwan (UTC+8)</div>
+        <div><a href="mailto:stemuulen51@gmail.com">stemuulen51@gmail.com</a></div>
+        <div><a href="https://github.com/kwonderkidesus">github.com/kwonderkidesus</a></div>
+      </div>
+    </header>
+
+    <div class="section two-cols">
+      <main>
+        <section>
+          <h2>Summary</h2>
+          <p>Analytical econometrics student with hands-on experience in EViews, time-series modeling (ARCH/GARCH), and regression analysis. Strong background in financial data analysis, variable selection, and statistical testing. Looking for internships or contributions to data / finance projects.</p>
+        </section>
+
+        <section class="section">
+          <h2>Experience & Projects</h2>
+          <ul>
+            <li><strong>Econometrics project (EViews)</strong> — modeled financial returns using ARCH/GARCH families; performed model selection and residual diagnostics.</li>
+            <li><strong>Regression & Variable Selection</strong> — selected qualitative and quantitative explanatory variables, tested functional forms and interactions; wrote reproducible analysis.</li>
+            <li><strong>Speaking assignment</strong> — prepared a persuasive presentation interpreting literary works and social context.</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <ul>
+            <li>Bachelor — Finance (expected graduation 2027)</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Skills</h2>
+          <div>
+            <span class="skill-badge">EViews</span>
+            <span class="skill-badge">Time-series</span>
+            <span class="skill-badge">ARCH/GARCH</span>
+            <span class="skill-badge">Regression</span>
+            <span class="skill-badge">Data analysis</span>
+            <span class="skill-badge">Python (pandas, numpy)</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Languages</h2>
+          <ul>
+            <li>Mongolian — Native</li>
+            <li>English — Upper Intermediate</li>
+            <li>Chinese (Mandarin) — Beginner/Intermediate</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <section>
+          <h2>Contact</h2>
+          <p>LinkedIn · GitHub · Email</p>
+        </section>
+
+        <section class="section">
+          <h2>Highlights</h2>
+          <ul>
+            <li>Worked with datasets >100 observations</li>
+            <li>Presentation & public speaking experience</li>
+            <li>Academic projects in finance and econometrics</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+
+    <footer>Resume generated for web publishing — edit contact details in the HTML before publishing.</footer>
+  </div>
+</body>
+</html>
